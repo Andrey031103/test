@@ -90,18 +90,18 @@ class Lexicon:
         )
 
         self.from_transaction_categorie = CallbackLexicon(
-            text='Выход из ада',
+            text='Выход',
             data='from_transaction_categorie'
         )
 
 
         self.from_select_transaction_type = CallbackLexicon(
-            text='Выход из ада',
+            text='Выход',
             data='from_select_transaction_type'
         )
 
         self.from_amount_to_category = CallbackLexicon(
-            text='Выход из ада',
+            text='Выход',
             data='from_amount_to_category'
         )
 
