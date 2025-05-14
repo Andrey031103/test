@@ -4,7 +4,7 @@ from keyboards import get_expence_categoriers_kb, get_main_menu_kb, get_transact
 from telebot import TeleBot
 from service.transaction import create_transaction,set_type_transaction,set_category_transaction,can_set_amount_transaction,set_amount_transaction,get_category, get_transaction_object 
 
-from service.datadase import write_database
+from service.database import write_database
 from service.message import msgs_to_delete
 from service.getter_categories import callback_categories
 

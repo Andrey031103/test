@@ -8,4 +8,5 @@ register_move_handlers(bot)
 register_report_handlers(bot)
 
 
-bot.polling(skip_pending=True) 
+bot.polling(skip_pending=True)
+

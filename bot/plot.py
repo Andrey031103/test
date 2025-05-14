@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from service.datadase import read_database
+from service.database import read_database
 
 data = read_database(6170800646)
 
@@ -77,7 +77,7 @@ fig, (ax1,ax2) = plt.subplots(1,2, figsize=(10,5))
 ax1.pie(incomes_values, labels=incomes_titles, autopct='%1.1f%%')
 ax1.set_title('Диаграмма доходов')
 ax2.pie(expences_values, labels=expences_titles, autopct='%1.1f%%')
-ax2.set_title('Диаграмма доходов')
+ax2.set_title('Диаграмма расходов')
 
 fig.suptitle('Доходы и расходы в категориях')
 plt.show()
